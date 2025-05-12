@@ -88,6 +88,22 @@ The project uses the following main dependencies:
 - google-api-python-client
 - python-dotenv
 
+## Deployed Configuration:
+
+```json
+{
+  "mcpServers": {
+    "google_calendar_mcp": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp-google-calendar.avikm744.workers.dev/sse"
+      ]
+    }
+  }
+}
+```
+
 ## Security Notes
 
 - Never commit your `credentials.json`, `token.json`, or `.env` file to version control
