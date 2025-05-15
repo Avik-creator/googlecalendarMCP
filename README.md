@@ -1,4 +1,5 @@
 # Google Calendar Integration Project
+[![smithery badge](https://smithery.ai/badge/@Avik-creator/googlecalendarMCP)](https://smithery.ai/server/@Avik-creator/googlecalendarMCP)
 
 This project provides integration with Google Calendar API to manage and interact with calendar events programmatically.
 
@@ -11,6 +12,15 @@ This project provides integration with Google Calendar API to manage and interac
 
 ## Setup Instructions
 
+### Installing via Smithery
+
+To install Google Calendar Integration Project for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Avik-creator/googlecalendarMCP):
+
+```bash
+npx -y smithery install @Avik-creator/googlecalendarMCP --client claude
+```
+
+### Manual Installation
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/Avik-creator/googlecalendarMCP
